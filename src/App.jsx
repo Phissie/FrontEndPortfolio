@@ -24,7 +24,7 @@ loader.load('./fonts/Ditsa Calista_DEMO_Regular.json', (font) => {
 function Strawberry({ z }) {
   const ref = useRef();
   const { nodes, materials } = useGLTF(
-    "/src/public/beautifulstrawberryglb-transformed.glb"
+    "/beautifulstrawberryglb-transformed.glb"
   );
   const { viewport, camera } = useThree();
   const { width, height } = viewport.getCurrentViewport(camera, [0, 0, z]);
