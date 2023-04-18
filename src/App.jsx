@@ -66,21 +66,6 @@ function Strawberry({ z }) {
 export default function App({ count = 190, depth = 80 }) {
   return (
     <>
-      <h1
-        style={{
-          position: "absolute",
-          color: "#630011",
-          top: "200px",
-          fontSize: "62px",
-          zIndex: "100",
-          margin: "0 auto",
-          left: 0,
-          right: 0,
-          textAlign: "center",
-        }}
-      >
-        Fisayo Fagade
-      </h1>
       <Canvas gl={{ alpha: false }} camera={{ fov: 45 }}>
         <color attach="background" args={["#ffe4e1"]} />
         <ambientLight intensity={1} />
@@ -100,6 +85,7 @@ export default function App({ count = 190, depth = 80 }) {
           </EffectComposer>
         </Suspense>
       </Canvas>
+
     </>
   );
 }
