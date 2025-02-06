@@ -5,11 +5,11 @@ const ProjectsPage = () => {
   const photos = [
     {
       src: "/BlogGeneratorApp.jpg",
-      link: "https://www.linkedin.com/in/fisayofagade/",
+      link: "https://github.com/Phissie/Blog_generator_AI",
     },
     {
       src: "/CookBookApp.jpeg",
-      link: "https://www.linkedin.com/in/fisayofagade/",
+      link: "https://github.com/Phissie/API-BackEnd",
     },
     {
       src: "/MachineLearningApps.jpg",

@@ -4,7 +4,7 @@ const HackathonsPage = () => {
   const photos = [
     {
       src: "/TravelAssistanceApp.jpg",
-      link: "https://www.linkedin.com/in/fisayofagade/",
+      link: "https://github.com/Choggsy/ConnectHackApp",
     },
     {
       src: "/Softwaredesign hackathon.png",
