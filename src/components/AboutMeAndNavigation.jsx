@@ -108,7 +108,7 @@ const AboutMe = () => {
         </Button>
 
         <Button
-          href="https://github.com/Phissie/MYAIRESEARCH"
+          href="https://github.com/Phissie/ResearchonAIinRetail"
           target="_blank"
           rel="noopener noreferrer"
           variant="contained"
