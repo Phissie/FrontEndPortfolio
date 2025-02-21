@@ -14,9 +14,9 @@ const ClickablePhoto = ({ photoSrc, linkUrl, width = 300, height = 300 }) => {
         textDecoration: "none",
         zIndex: 1000,
         overflow: "hidden",
-        borderRadius: "8px",
+        borderRadius: "200px",
         boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-        transition: "transform 0.2s ease-in-out",
+        transition: "transform 0.9s ease-in-out",
         "&:hover": {
           transform: "scale(1.05)",
         },
@@ -39,9 +39,9 @@ const ClickablePhoto = ({ photoSrc, linkUrl, width = 300, height = 300 }) => {
 
 const PhotoGallery = ({
   photos,
-  photoHeight = 80,
+  photoHeight = 200,
   justifyContent = "space-between",
-  photoWidth = "fit-content",
+  photoWidth = "400",
 }) => {
   return (
     <Stack

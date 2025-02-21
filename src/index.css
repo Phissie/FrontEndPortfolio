@@ -16,3 +16,44 @@ canvas {
   left: 0;
   z-index: -10;
 }
+.card {
+  background:lightblue;
+  --color: hs1(200, 50%, 50%);
+  padding: .50rem .85rem;
+  border: 1px solid #777;
+  border-radius: .99rem;
+  cursor:pointer;
+  overflow: hidden;
+}
+
+.card-grid {
+  display : grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap:3rem;
+  align-items: flex-start;
+}
+
+.pic{
+  width:500px;
+  height: 500px;
+  overflow:hidden;
+  display:block;
+  width:100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.photo{
+  width:400px;
+}
+.card:hover, .card:focus {
+background: none;
+border: 1px solid var(--color);
+color:var(--color);
+}
+
+.card.card-outline:hover, .card.card-outline:focus{
+background: hsl(200%, 50%, 90%)
+}
