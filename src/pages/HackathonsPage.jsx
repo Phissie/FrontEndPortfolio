@@ -6,10 +6,7 @@ const HackathonsPage = () => {
       src: "/TravelAssistanceApp.jpg",
       link: "https://github.com/Choggsy/ConnectHackApp",
     },
-    {
-      src: "/Softwaredesign hackathon.png",
-      link: "https://www.linkedin.com/in/fisayofagade/",
-    },
+    
   ];
   return (
     <PageTemplate>
