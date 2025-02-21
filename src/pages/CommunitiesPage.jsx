@@ -9,11 +9,11 @@ export default function CommunitiesPage() {
     },
     {
       src: "/CodebarCommunity.jpg",
-      link: "https://www.linkedin.com/in/fisayofagade/",
+      link: "https://codebar.io/london",
     },
     {
       src: "/RTC.png",
-      link: "https://www.linkedin.com/in/fisayofagade/",
+      link: "https://rewritingthecode.org/uk/",
     },
   ];
   return (
