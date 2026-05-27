@@ -40,8 +40,7 @@ const AboutMe = () => {
       <h1
         style={{
           ...headingStyles,
-          fontSize: "62px",
-          marginTop: "10%",
+          fontSize: "48px",
         }}
       >
         Fisayo Fagade
@@ -52,7 +51,7 @@ const AboutMe = () => {
           fontSize: "31px",
         }}
       >
-        Software Engineer
+        AI & Legal Technology Professional
       </h2>
       <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
         <Button
@@ -106,7 +105,6 @@ const AboutMe = () => {
         >
           Hackathons
         </Button>
-
         <Button
           href="https://github.com/Phissie/ResearchonAIinRetail"
           target="_blank"
@@ -114,7 +112,7 @@ const AboutMe = () => {
           variant="contained"
           sx={buttonStyles}
         >
-          My AI Research
+          My UX and Human Centred AI Research
         </Button>
       </Stack>
       <section id="intro">
