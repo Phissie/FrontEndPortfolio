@@ -9,12 +9,9 @@ const ProjectsPage = () => {
     },
     {
       src: "/CookBookApp.jpeg",
-      link: "https://github.com/Phissie/API-BackEnd",
+      link: "https://github.com/Phissie/lists/original-ux-research",
     },
-    {
-      src: "/MachineLearningApps.jpg",
-      link: "https://www.linkedin.com/in/fisayofagade/",
-    },
+    
   ];
   return (
     <PageTemplate>

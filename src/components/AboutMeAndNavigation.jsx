@@ -55,7 +55,7 @@ const AboutMe = () => {
       </h2>
       <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
         <Button
-          href="https://github.com/stars/Phissie/lists/original-ux-research"
+          href="https://www.linkedin.com/in/fisayof/"
           target="_blank"
           rel="noopener noreferrer"
           variant="contained"
@@ -63,6 +63,7 @@ const AboutMe = () => {
         >
           My LinkedIn
         </Button>
+
         <Button
           component={Link}
           to="/communities"
@@ -77,7 +78,9 @@ const AboutMe = () => {
         >
           My Communities
         </Button>
+
         <Button
+          href = "https://github.com/stars/Phissie/lists/ubs-software-design-incubator"
           component={Link}
           to="/projects"
           variant="contained"
@@ -91,7 +94,9 @@ const AboutMe = () => {
         >
           Projects
         </Button>
+
         <Button
+        href = "https://github.com/stars/Phissie/lists/ubs-software-design-incubator"
           component={Link}
           to="/hackathons"
           variant="contained"
@@ -105,15 +110,24 @@ const AboutMe = () => {
         >
           Hackathons
         </Button>
+
         <Button
-          href="https://github.com/Phissie/ResearchonAIinRetail"
+          href = "https://github.com/stars/Phissie/lists/original-ux-research"
           target="_blank"
           rel="noopener noreferrer"
           variant="contained"
           sx={buttonStyles}
         >
           UX & AI Research
+        
         </Button>
+        
+        
+  
+
+
+
+        
       </Stack>
       <section id="intro">
         <div className="Intro"></div>
