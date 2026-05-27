@@ -55,7 +55,7 @@ const AboutMe = () => {
       </h2>
       <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
         <Button
-          href="https://www.linkedin.com/in/fisayofagade/"
+          href="https://github.com/stars/Phissie/lists/original-ux-research"
           target="_blank"
           rel="noopener noreferrer"
           variant="contained"
