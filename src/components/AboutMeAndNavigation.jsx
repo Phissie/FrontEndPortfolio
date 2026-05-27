@@ -51,7 +51,7 @@ const AboutMe = () => {
           fontSize: "31px",
         }}
       >
-        AI & Legal Technology Professional
+        AI & UX Research Professional
       </h2>
       <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
         <Button
@@ -112,7 +112,7 @@ const AboutMe = () => {
           variant="contained"
           sx={buttonStyles}
         >
-          My UX and Human Centred AI Research
+          UX & AI Research
         </Button>
       </Stack>
       <section id="intro">
