@@ -51,8 +51,16 @@ const AboutMe = () => {
           fontSize: "31px",
         }}
       >
-        AI & UX Research Professional
+        Human-Centered AI & Technical Operations
       </h2>
+      <h3
+        style={{
+          ...headingStyles,
+          fontSize: "21px",
+        }}
+         >
+        AI Safety, Responsible AI & Technical Operations 
+        </h3>
       <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
         <Button
           href="https://www.linkedin.com/in/fisayof/"
